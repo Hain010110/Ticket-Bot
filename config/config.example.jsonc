@@ -1,10 +1,10 @@
 {
-	"clientId": "1111111111111111111", // The id of the discord bot
-	"guildId": "1111111111111111111", // The id of the discord server
+	"clientId": "1124118601297825813", // The id of the discord bot
+	"guildId": "1061947396742971434", // The id of the discord server
 	"mainColor": "#f6c42f", // The hex color of the embeds by default
 	"lang": "main", // If you want to set english please set "main"
 
-	"openTicketChannelId": "1111111111111111111", // The id of the channel where the message to create a ticket will be sent
+	"openTicketChannelId": "1061947400954073159", // The id of the channel where the message to create a ticket will be sent
 
 	"ticketTypes": [
 		// You have a limit of 25 types (the limit of Discord)
@@ -14,7 +14,7 @@
 			"description": "Description of Category One", // The description of the Ticket in Create Ticket Menu
 			"emoji": "💡", // The emoji of the type (can be blank)
 			"color": "", // Can be a hex color or blank to use the main color
-			"categoryId": "1111111111111111111", // The category id where the tickets will be created
+			"categoryId": "1124728678262251631", // The category id where the tickets will be created
 			"ticketNameOption": "💡ticket-TICKETCOUNT", // Here is all parameter: USERNAME, USERID, TICKETCOUNT (set to blank to use the default name)
 			"customDescription": "", // The custom description of the ticket type, here is all parameter: USERNAME, USERID, TICKETCOUNT, REASON1, 2, ect (set to blank to use the default description)
 			"cantAccess": ["1111111111111111111"], // The roles who can't access to this ticket type
@@ -73,7 +73,7 @@
 	"roleToPingWhenOpenedId": ["1111111111111111111"], // The role to ping when a ticket is opened
 
 	"logs": true,
-	"logsChannelId": "1111111111111111111", // The id of the channel where the logs will be sent
+	"logsChannelId": "1061947414510043209", // The id of the channel where the logs will be sent
 	
 	"closeOption": {
 		"closeButton": true, // If false the ticket can be closed only by doing /closes
@@ -81,7 +81,7 @@
 		"createTranscript": true, // If set to true, when the ticket is closed a transcript will be generated and sent in the logs channel
 		"askReason": true, // If false the ticket will be closed without asking the reason
 		"whoCanCloseTicket": "STAFFONLY", // STAFFONLY (roles configured at "rolesWhoHaveAccessToTheTickets") or EVERYONE
-		"closeTicketCategoryId": "" // The id of the category where a closed ticket will be moved to. Leave blank to disable this feature
+		"closeTicketCategoryId": "1061947401411244060" // The id of the category where a closed ticket will be moved to. Leave blank to disable this feature
 	},
 	"uuidType": "uuid", // uuid or emoji
 
